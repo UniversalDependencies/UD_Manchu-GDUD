@@ -33,7 +33,7 @@
 3	boo	boo	NOUN	_	Case=Loc	9	dep	_	_
 4	ci	ci	ADP	_	_	9	dep	_	_
 5	tuci-fi	tuci	VERB	_	Tense=Past|VerbForm=Conv	9	dep	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	9	dep	_	_
+6	,	,	PUNCT	_	_	9	punct	_	_
 7	hoton	hoton	NOUN	_	Case=Dat	9	dep	_	_
 8	de	de	ADP	_	_	9	dep	_	_
 9	gene-he	gene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -672,7 +672,7 @@
 2	niyalma	niyalma	NOUN	_	Case=Acc	4	obj	_	_
 3	obu-fi	obu	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	4	conj	_	Gloss=make-ing
 4	ajige	ajige	DET	_	PronType=Dem	7	det	_	Gloss=small
-5	weihu-de	weihu	NOUN	_	Case=Loc	7	obl	_	Gloss=boat-in
+5	weihu-de	weihu	NOUN	_	Case=Loc	7	nmod	_	Gloss=boat-in
 6	te-fi	te	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	4	conj	_	Gloss=sit-ing
 7	emhun	emhun	PRON	_	Case=Acc|PronType=Prs	8	nsubj	_	Gloss=I/He
 8	suru-me	suru	VERB	_	VerbForm=Conv	0	root	_	Gloss=row-ing
@@ -717,7 +717,7 @@
 # sent_id = Manchu_grammar_78
 # text = K'an Ze hendu-me Cenghiyang-de hûdula-me alana Dergi
 # text[eng] = K'an Ze said: "Report quickly to Chancellor Cenghiyang!"
-1	K'an Ze	K'an Ze	PROPN	_	_	2	nsubj	_	_
+1	K'an_Ze	K'an_Ze	PROPN	_	_	2	nsubj	_	_
 2	hendu-me	hendu	VERB	_	VerbForm=Conv	0	root	_	Gloss=say-ing
 3	Cenghiyang-de	Cenghiyang	PROPN	_	Case=Dat	5	obl	_	Gloss=chancellor-to
 4	hûdula-me	hûdula	VERB	_	VerbForm=Conv	5	advcl	_	Gloss=hurry-ing
@@ -728,8 +728,8 @@
 # text = Gurun-i K'an Ze K'an Ze-de dalda-ra amba weile bi-fi cohome acanji-me
 # text[eng] = The kingdom's K'an Ze, hiding an important matter, especially met with (someone)
 1	Gurun-i	Gurun	NOUN	_	Case=Gen	2	nmod:poss	_	Gloss=kingdom-'s
-2	K'an Ze	K'an Ze	PROPN	_	_	6	nsubj	_	_
-3	K'an Ze-de	K'an Ze	PROPN	_	Case=Dat	6	obl	_	Gloss=-by
+2	K'an_Ze	K'an_Ze	PROPN	_	_	6	nsubj	_	_
+3	K'an_Ze-de	K'an_Ze	PROPN	_	Case=Dat	6	nmod	_	Gloss=-by
 4	dalda-ra	dalda	VERB	_	VerbForm=Conv	6	advcl	_	Gloss=hide-ing
 5	amba	amba	ADJ	_	_	6	amod	_	Gloss=big
 6	weile	weile	NOUN	_	_	0	root	_	Gloss=matter.be-ing
@@ -748,7 +748,7 @@
 # text = Tere dobori Z'oo Z'oo olhon-i ing-de bi-hebi Cooha-i
 # text[eng] = That night, at Z'oo Z'oo dry land's camp, there was (the army)
 1	Tere	tere	DET	_	PronType=Dem	5	det	_	Gloss=that
-2	dobori	dobori	NOUN	_	Case=Loc	5	obl	_	Gloss=night
+2	dobori	dobori	NOUN	_	Case=Loc	5	nmod	_	Gloss=night
 3	Z'oo	Z'oo	PROPN	_	_	4	compound	_	_
 4	Z'oo	Z'oo	PROPN	_	_	5	compound	_	_
 5	olhon-i	olhon	NOUN	_	Case=Gen	6	nmod:poss	_	Gloss=dry land-'s
@@ -763,7 +763,7 @@
 2	alana-ra	alana	VERB	_	VerbForm=Conv	7	advcl	_	Gloss=report-ing
 3	jakade	jakade	ADV	_	_	2	advmod	_	Gloss=after
 4	Z'oo	Z'oo	PROPN	_	_	5	compound	_	_
-5	Z'oo	Z'oo	PROPN	_	_	7	obl	_	_
+5	Z'oo	Z'oo	PROPN	_	_	7	nmod	_	_
 6	hendu-me	hendu	VERB	_	VerbForm=Conv	7	advcl	_	Gloss=say-ing
 7	Jiyansi	Jiyansi	PROPN	_	_	0	root	_	Gloss=spy
 8	waka	waka	ADV	_	Polarity=Neg	9	advmod	_	Gloss=not
