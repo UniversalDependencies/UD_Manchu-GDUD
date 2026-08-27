@@ -212,7 +212,7 @@
 8	ahūn	ahūn	NOUN	_	_	11	nmod	_	_
 9	deo	deo	NOUN	_	_	8	conj	_	_
 10	nadan	nadan	NUM	_	NumType=Card	11	nummod	_	_
-11	niyalma	niyalma	NOUN	_	_	15	nsubj	_	_
+11	niyalma	niyalma	NOUN	_	_	15	nsubj:outer	_	_
 12	gemu	gemu	ADV	_	_	11	advmod	_	_
 13	hūsun	hūsun	NOUN	_	_	15	compound	_	_
 14	amba	amba	ADJ	_	_	15	amod	_	_
@@ -330,7 +330,7 @@
 1	ama	ama	NOUN	_	_	7	nsubj	_	_
 2	eme	eme	NOUN	_	_	1	conj	_	_
 3	damu	damu	ADV	_	_	1	advmod	_	_
-4	nime-rahū	nime	VERB	_	Polarity=Neg|VerbForm=Part	7	csubj	_	_
+4	nime-rahū	nime	VERB	_	Polarity=Neg|VerbForm=Part	7	csubj:outer	_	_
 5	se-me	se	VERB	_	VerbForm=Conv	4	advcl	_	_
 6	jobo	jobo	NOUN	_	_	7	obj	_	_
 7	jobo-mbi	jobo	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	0	root	_	_
