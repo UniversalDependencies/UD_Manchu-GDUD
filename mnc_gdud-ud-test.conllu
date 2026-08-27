@@ -116,7 +116,7 @@
 # sent_id = Manchu_grammar_14
 # text = alin bujan de tomo-mbi
 # text[eng] = (They) live in mountains and forests.
-1	alin	alin	NOUN	_	_	2	conj	_	_
+1	alin	alin	NOUN	_	_	2	parataxis	_	_
 2	bujan	bujan	NOUN	_	_	4	obl	_	_
 3	de	de	ADP	_	_	2	case	_	_
 4	tomo-mbi	tomo	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	0	root	_	_
@@ -290,7 +290,7 @@
 # text[eng] = Will he come today or not?
 1	i	i	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	enenggi	enenggi	ADV	_	_	4	advmod	_	AdvType=Tim
-3	ji-mbi-o	ji	VERB	_	Aspect=Imp|Mood=Int|Tense=Pres|VerbForm=Fin	4	conj	_	_
+3	ji-mbi-o	ji	VERB	_	Aspect=Imp|Mood=Int|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 4	jide-rakū-n	jide	VERB	_	Mood=Int|Polarity=Neg|VerbForm=Part	0	root	_	_
 
 # sent_id = Manchu_grammar_35
@@ -430,7 +430,7 @@
 # text[eng] = The mother of the stars is the heavens.
 1	usiha	usiha	NOUN	_	_	3	nmod:poss	_	_
 2	i	i	PART	_	Case=Gen	1	case	_	_
-3	eme	eme	NOUN	_	_	6	nsubj	_	_
+3	eme	eme	NOUN	_	_	5	nsubj	_	_
 4	oci	oci	PART	_	_	3	discourse	_	_
 5	abka	abka	NOUN	_	_	7	nmod:poss	_	_
 6	i	i	PART	_	Case=Gen	5	case	_	_
@@ -450,7 +450,7 @@
 # text = fuldun fuldun ilha mafa gurun be miyamimbi
 # text[eng] = All these bunches of flowers decorate the fatherland.
 1	fuldun	fuldun	DET	_	PronType=Tot	3	det	_	_
-2	fuldun	fuldun	ADV	_	_	1	advmod	_	_
+2	fuldun	fuldun	ADV	_	_	3	advmod	_	_
 3	ilha	ilha	NOUN	_	_	7	nsubj	_	_
 4	mafa	mafa	ADJ	_	Degree=Pos	5	amod	_	_
 5	gurun	gurun	NOUN	_	_	7	obj	_	_
@@ -563,7 +563,7 @@
 2	susai	susai	NUM	_	NumType=Card	4	nummod	_	_
 3	juwe	juwe	NUM	_	NumType=Card	4	nummod	_	_
 4	se	se	NOUN	_	_	5	obl	_	Gloss=year
-5	oho	oho	VERB	_	VerbType=Stat	0	root	_	Gloss=be.exist
+5	oho	oho	VERB	_	_	0	root	_	Gloss=be.exist|VerbType=Stat
 
 # sent_id = Manchu_grammar_63
 # text = sinde udu indahūn bio
@@ -571,7 +571,7 @@
 1	sinde	si	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
 2	udu	udu	DET	_	PronType=Int	3	det	_	Gloss=how.many
 3	indahūn	indahūn	NOUN	_	_	4	nsubj	_	Gloss=dog
-4	bio	bi	VERB	_	Mood=Int|VerbType=Exist	0	root	_	Gloss=be.exist
+4	bio	bi	VERB	_	Mood=Int	0	root	_	Gloss=be.exist|VerbType=Exist
 
 # sent_id = Manchu_grammar_64
 # text = uheri tofohon indahūn bi
@@ -579,7 +579,7 @@
 1	uheri	uheri	ADV	_	_	4	advmod	_	Gloss=altogether
 2	tofohon	tofohon	NUM	_	NumType=Card	3	nummod	_	Gloss=fifteen
 3	indahūn	indahūn	NOUN	_	_	4	nsubj	_	Gloss=dog
-4	bi	bi	VERB	_	VerbType=Exist	0	root	_	Gloss=be.exist
+4	bi	bi	VERB	_	_	0	root	_	Gloss=be.exist|VerbType=Exist
 
 # sent_id = Manchu_grammar_65
 # text = tofohon i ilan ubu emu boo de
@@ -600,7 +600,7 @@
 3	boode	boo	NOUN	_	_	6	obl	_	Gloss=house
 4	udu	udu	DET	_	PronType=Int	5	det	_	Gloss=how.many
 5	indahvn	indahvn	NOUN	_	_	6	nsubj	_	Gloss=dog
-6	bio	bi	VERB	_	Mood=Int|VerbType=Exist	0	root	_	Gloss=be.exist
+6	bio	bi	VERB	_	Mood=Int	0	root	_	Gloss=be.exist|VerbType=Exist
 
 # sent_id = Manchu_grammar_67
 # text = boode sunja indahvn bi
@@ -608,7 +608,7 @@
 1	boode	boo	NOUN	_	_	4	obl	_	Gloss=house
 2	sunja	sunja	NUM	_	NumType=Card	3	nummod	_	Gloss=five
 3	indahvn	indahvn	NOUN	_	_	4	nsubj	_	Gloss=dog
-4	bi	bi	VERB	_	VerbType=Exist	0	root	_	Gloss=be.exist
+4	bi	bi	VERB	_	_	0	root	_	Gloss=be.exist|VerbType=Exist
 
 # sent_id = Manchu_grammar_68
 # text = Hûwang ubaliya-kai besergen-ci ebu-fi
@@ -629,7 +629,7 @@
 # text = K'an Ze hendu-me Weile-be elhese-ci ojorakû Te uthai
 # text[eng] = K’an Ze said: "Do not slacken your work now at once."
 1	K'an	K'an	PROPN	_	_	3	nsubj	_	_
-2	Ze	Ze	PROPN	_	_	3	nsubj	_	_
+2	Ze	Ze	PROPN	_	_	3	nsubj:outer	_	_
 3	hendu-me	hendu	VERB	_	VerbForm=Conv	0	root	_	Gloss=say-ing
 4	Weile-be	Weile	VERB	_	Case=Acc	6	obj	_	Gloss=work-Acc
 5	elhese-ci	elhese	NOUN	_	Case=Abl	6	obl	_	Gloss=slacken-ing
@@ -656,24 +656,24 @@
 # text = K'an Ze bithe-be gai-fi uthai tere dobori beye-be nimaha
 # text[eng] = K’an Ze, having taken the letter at once, caught fish himself that night.
 1	K'an	K'an	PROPN	_	_	4	nsubj	_	_
-2	Ze	Ze	PROPN	_	_	4	nsubj	_	_
+2	Ze	Ze	PROPN	_	_	4	nsubj:outer	_	_
 3	bithe-be	bithe	NOUN	_	Case=Acc	4	obj	_	Gloss=letter
 4	gai-fi	gai	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Gloss=take-ing
 5	uthai	uthai	ADV	_	_	4	advmod	_	Gloss=at.once
 6	tere	tere	DET	_	PronType=Dem	7	det	_	_
-7	dobori	dobori	NOUN	_	Case=Acc	4	obj	_	Gloss=fish
+7	dobori	dobori	NOUN	_	Case=Acc	4	iobj	_	Gloss=fish
 8	beye-be	beye	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	compound:prt	_	Gloss=self
 9	nimaha	nimaha	ADV	_	_	4	advmod	_	Gloss=that.night
 
 # sent_id = Manchu_grammar_74
 # text = buta-ra niyalma obu-fi ajige weihu-de te-fi emhun suru-me amargi
 # text[eng] = (Someone) caught a man, put him in a small boat, and rowed north alone
-1	buta-ra	buta	VERB	_	VerbForm=Conv	4	advcl	_	Gloss=catch-ing
-2	niyalma	niyalma	NOUN	_	Case=Acc	4	obj	_	_
-3	obu-fi	obu	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	4	conj	_	Gloss=make-ing
+1	buta-ra	buta	VERB	_	VerbForm=Conv	7	advcl	_	Gloss=catch-ing
+2	niyalma	niyalma	NOUN	_	Case=Acc	7	obj	_	_
+3	obu-fi	obu	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	7	parataxis	_	Gloss=make-ing
 4	ajige	ajige	DET	_	PronType=Dem	7	det	_	Gloss=small
 5	weihu-de	weihu	NOUN	_	Case=Loc	7	nmod	_	Gloss=boat-in
-6	te-fi	te	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	4	conj	_	Gloss=sit-ing
+6	te-fi	te	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	7	conj	_	Gloss=sit-ing
 7	emhun	emhun	PRON	_	Case=Acc|PronType=Prs	8	nsubj	_	Gloss=I/He
 8	suru-me	suru	VERB	_	VerbForm=Conv	0	root	_	Gloss=row-ing
 9	amargi	amargi	ADV	_	_	8	advmod	_	Gloss=north.alone
@@ -694,13 +694,13 @@
 # text = sahûrun usiha abka-i jalu dekde-hebi Ila-ci ging o-me muke-i
 # text[eng] = The stars float in the sky; during the third watch, the water is...
 1	sahûrun	sahûrun	NOUN	_	_	4	nsubj	_	Gloss=cold
-2	usiha	usiha	NOUN	_	_	4	nsubj	_	Gloss=star
+2	usiha	usiha	NOUN	_	_	4	nsubj:outer	_	Gloss=star
 3	abka-i	abka	NOUN	_	Case=Gen	4	obl	_	Gloss=sky-'s
 4	jalu	jalu	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	0	root	_	Gloss=float-ed
 5	dekde-hebi	dekde	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	4	parataxis	_	Gloss=has
-6	Ila-ci	ila	NUM	_	_	9	advmod	_	Gloss=third.watch
+6	Ila-ci	ila	NUM	_	_	9	nummod	_	Gloss=third.watch
 7	ging	ging	NOUN	_	_	9	nsubj	_	Gloss=be-ing
-8	o-me	o	VERB	_	Tense=Pres|VerbForm=Part	9	cop	_	Gloss=copula
+8	o-me	o	AUX	_	Tense=Pres|VerbForm=Part	9	cop	_	Gloss=copula
 9	muke-i	muke	NOUN	_	Case=Gen	4	obl	_	Gloss=water-'s
 
 # sent_id = Manchu_grammar_77
@@ -715,7 +715,7 @@
 7	jafa-bu-ha	jafa	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	5	conj	_	Gloss=men-by
 
 # sent_id = Manchu_grammar_78
-# text = K'an Ze hendu-me Cenghiyang-de hûdula-me alana Dergi
+# text = K'an_Ze hendu-me Cenghiyang-de hûdula-me alana Dergi
 # text[eng] = K'an Ze said: "Report quickly to Chancellor Cenghiyang!"
 1	K'an_Ze	K'an_Ze	PROPN	_	_	2	nsubj	_	_
 2	hendu-me	hendu	VERB	_	VerbForm=Conv	0	root	_	Gloss=say-ing
@@ -725,7 +725,7 @@
 6	Dergi	Dergi	PROPN	_	_	5	obj	_	_
 
 # sent_id = Manchu_grammar_79
-# text = Gurun-i K'an Ze K'an Ze-de dalda-ra amba weile bi-fi cohome acanji-me
+# text = Gurun-i K'an_Ze K'an_Ze-de dalda-ra amba weile bi-fi cohome acanji-me
 # text[eng] = The kingdom's K'an Ze, hiding an important matter, especially met with (someone)
 1	Gurun-i	Gurun	NOUN	_	Case=Gen	2	nmod:poss	_	Gloss=kingdom-'s
 2	K'an_Ze	K'an_Ze	PROPN	_	_	6	nsubj	_	_
