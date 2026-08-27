@@ -673,7 +673,7 @@
 3	obu-fi	obu	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	7	parataxis	_	Gloss=make-ing
 4	ajige	ajige	DET	_	PronType=Dem	7	det	_	Gloss=small
 5	weihu-de	weihu	NOUN	_	Case=Loc	7	nmod	_	Gloss=boat-in
-6	te-fi	te	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	7	conj	_	Gloss=sit-ing
+6	te-fi	te	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	7	parataxis	_	Gloss=sit-ing
 7	emhun	emhun	PRON	_	Case=Acc|PronType=Prs	8	nsubj	_	Gloss=I/He
 8	suru-me	suru	VERB	_	VerbForm=Conv	0	root	_	Gloss=row-ing
 9	amargi	amargi	ADV	_	_	8	advmod	_	Gloss=north.alone
@@ -700,7 +700,7 @@
 5	dekde-hebi	dekde	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	4	parataxis	_	Gloss=has
 6	Ila-ci	ila	NUM	_	_	9	nummod	_	Gloss=third.watch
 7	ging	ging	NOUN	_	_	9	nsubj	_	Gloss=be-ing
-8	o-me	o	AUX	_	Tense=Pres|VerbForm=Part	9	cop	_	Gloss=copula
+8	o-me	o	AUX	_	Tense=Pres	9	cop	_	Gloss=copula
 9	muke-i	muke	NOUN	_	Case=Gen	4	obl	_	Gloss=water-'s
 
 # sent_id = Manchu_grammar_77
