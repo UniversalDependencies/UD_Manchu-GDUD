@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>81</sentences><tokens>446</tokens><words>446</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>81</sentences><tokens>446</tokens><words>446</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="214" /><!-- de, i, bi, be, niyalma, boo, tere, ci, gurun, si, amba, oci, hendu, eme, gene -->
+  <forms unique="252" /><!-- de, i, be, niyalma, tere, bi, ci, amba, boo, gurun, oci, si, eme, mafa, Z'oo -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">22</tag><!-- amba, mafa, sain, ajige, oros, fulu, julergi, oyonggo, tobsere -->
+    <tag name="ADP">42</tag><!-- de, ci, be, i, emgi, -ci, isitala, oci, ši -->
+    <tag name="ADV">24</tag><!-- enenggi, ing, te, uthai, ainu, amargi, cohome, damu, deri, fuldun -->
+    <tag name="AUX">3</tag><!-- akū, bi, o -->
+    <tag name="DET">18</tag><!-- tere, ere, udu, ajige, encu, fuldun, ya -->
+    <tag name="INTJ">2</tag><!-- baniha, inu -->
+    <tag name="NOUN">138</tag><!-- niyalma, boo, gurun, eme, bithe, dobori, indahūn, sargan, ubu, erin -->
+    <tag name="NUM">24</tag><!-- ilan, sunja, emu, tofohon, ila, juwan, juwe, minggan, nadan, nadanju -->
+    <tag name="PART">19</tag><!-- i, oci, be, inuo, te -->
+    <tag name="PRON">28</tag><!-- si, bi, be, beye, i, aibi, emhun, gūwa, meni, sini -->
+    <tag name="PROPN">24</tag><!-- Z'oo, K'an_Ze, G'ai, K'an, Wang, Xiao, Ze, Cenghiyang, Dergi, Jiyansi -->
+    <tag name="PUNCT">2</tag><!-- , -->
+    <tag name="VERB">100</tag><!-- bi, hendu, gene, ji, oho, hūla, tuci, alana, ara, bu -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="38">
+    <feat name="Aspect" value="Imp" upos="VERB">17</feat><!-- ara-mbi, bu-mbi, da-me, dasa-bu-mbi, ebu-mbi, gaija-r-akū, gene-mbi, hairambi, hūla-mbi, ji-mbi-o -->
+    <feat name="Aspect" value="Perf" upos="VERB">23</feat><!-- cooha-i, isina-fi, bi-fi, bi-hebi, dahashûn, dekde-hebi, gai-fi, gai-ka, hvwaxabuha, hūla-habi -->
+    <feat name="Case" value="Abl" upos="ADP,NOUN">4</feat><!-- -ci, besergen-ci, ci, elhese-ci -->
+    <feat name="Case" value="Acc" upos="ADP,NOUN,PART,PRON,VERB">18</feat><!-- be, Bithe, Weile-be, beye-be, bithe-be, dobori, emhun, giyang-be, membe, mimbe -->
+    <feat name="Case" value="Dat" upos="ADP,NOUN,PRON,PROPN">11</feat><!-- de, hoton, Cenghiyang-de, K'an_Ze-de, boo-de, sinde -->
+    <feat name="Case" value="Gen" upos="ADP,NOUN,PART,PRON,PROPN">20</feat><!-- i, Gurun-i, abka-i, dalin-i, eyen-i, fai, gurun, muke-i, niyalma, niyalma-de -->
+    <feat name="Case" value="Loc" upos="ADP,NOUN">7</feat><!-- boo, de, dobori, oci, weihu-de -->
+    <feat name="Case" value="Nom" upos="NOUN">4</feat><!-- sargan, niyalma -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">2</feat><!-- amba, deri -->
+    <feat name="Degree" value="Pos" upos="ADJ">12</feat><!-- mafa, ajige, amba, sain, fulu, oyonggo -->
+    <feat name="Mood" value="Cnd" upos="VERB">1</feat><!-- o-ci -->
+    <feat name="Mood" value="Imp" upos="VERB">5</feat><!-- aca-mbi, eje, gene-bu, hūla, ume -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">49</feat><!-- gene-he, oho, cooha-i, taciha, tuci-ke, akū, alana, ara-mbi, bi, bi-fi -->
+    <feat name="Mood" value="Int" upos="VERB">5</feat><!-- bio, ji-mbi-o, jide-rakū-n, sem-e-o -->
+    <feat name="Mood" value="Opt" upos="VERB">1</feat><!-- ji-ki -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON">6</feat><!-- be, hehe, membe, meni, niyalma -->
+    <feat name="Number" value="Sing" upos="PRON,VERB">25</feat><!-- si, bi, i, sinde, ara-mbi, beye-be, bu-he, ebu-fi, gene-he, gene-mbi -->
+    <feat name="NumType" value="Card" upos="NUM">22</feat><!-- ilan, sunja, emu, tofohon, juwan, juwe, minggan, nadan, nadanju, ninggun -->
+    <feat name="Person" value="1" upos="PRON,VERB">12</feat><!-- bi, be, ara-mbi, gene-he, membe, meni, mimbe -->
+    <feat name="Person" value="2" upos="PRON,VERB">12</feat><!-- si, sinde, ebu-mbi, gene-mbi, ji-ki, sini -->
+    <feat name="Person" value="3" upos="PRON,VERB">6</feat><!-- i, beye-be, bu-he, ebu-fi, waji-habi -->
+    <feat name="Polarity" value="Neg" upos="ADV,AUX,VERB">8</feat><!-- akū, gaija-r-akū, jide-rakū-n, nime-rahū, ojorakû, sem-e-o, tuwa-hakū, waka -->
+    <feat name="Polarity" value="Pos" upos="VERB">1</feat><!-- aca-mbi -->
+    <feat name="Poss" value="Yes" upos="PRON">1</feat><!-- meni -->
+    <feat name="PronType" value="Dem" upos="DET">13</feat><!-- tere, ere, ajige -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">2</feat><!-- encu, gūwa -->
+    <feat name="PronType" value="Int" upos="ADV,DET,NUM,PRON">7</feat><!-- udu, aibi, ainu, ya -->
+    <feat name="PronType" value="Prs" upos="PRON">25</feat><!-- si, bi, be, i, sinde, beye, beye-be, emhun, membe, meni -->
+    <feat name="PronType" value="Tot" upos="DET">1</feat><!-- fuldun -->
+    <feat name="Reflex" value="Yes" upos="PRON">1</feat><!-- beye -->
+    <feat name="Tense" value="Fut" upos="VERB">1</feat><!-- ala-ra -->
+    <feat name="Tense" value="Past" upos="VERB">16</feat><!-- gene-he, taciha, tuci-ke, bu-he, deribu-he, ebu-fi, fata-mbihebi, hūla-habi, ji-he, oho -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">14</feat><!-- oho, alana, ara-mbi, bi, bu-mbi, gene-mbi, hairambi, hendu, ji-mbi-o, miyamimbi -->
+    <feat name="VerbForm" value="Conv" upos="VERB">27</feat><!-- hendu-me, se-me, acanji-me, alana-ra, ara-me, bedere-re, buta-ra, da-me, dalda-ra, dali-me -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">57</feat><!-- gene-he, oho, cooha-i, taciha, tuci-ke, aca-mbi, akū, alana, ara-mbi, bi -->
+    <feat name="VerbForm" value="Part" upos="VERB">12</feat><!-- ala-ra, gai-fi, gai-ka, gaija-r-akū, gisure-re, habša-ra, hendu-re-nge, jide-rakū-n, nime-rahū, ojorakû -->
+    <feat name="Voice" value="Cau" upos="VERB">1</feat><!-- gene-bu -->
+    <feat name="Voice" value="Pass" upos="VERB">4</feat><!-- dasa-bu-mbi, hvwaxabuha, uša-bu-ha, wa-bu-fi -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="32">
+    <dep name="acl">2</dep>
+    <dep name="advcl">16</dep>
+    <dep name="advmod">22</dep>
+    <dep name="amod">19</dep>
+    <dep name="appos">4</dep>
+    <dep name="case">45</dep>
+    <dep name="ccomp">2</dep>
+    <dep name="clf">1</dep>
+    <dep name="compound">8</dep>
+    <dep name="compound:prt">1</dep>
+    <dep name="conj">10</dep>
+    <dep name="cop">1</dep>
+    <dep name="csubj">1</dep>
+    <dep name="csubj:outer">1</dep>
+    <dep name="dep">11</dep>
+    <dep name="det">18</dep>
+    <dep name="discourse">8</dep>
+    <dep name="flat:name">2</dep>
+    <dep name="iobj">1</dep>
+    <dep name="nmod">14</dep>
+    <dep name="nmod:poss">17</dep>
+    <dep name="nsubj">52</dep>
+    <dep name="nsubj:outer">4</dep>
+    <dep name="nummod">15</dep>
+    <dep name="obj">23</dep>
+    <dep name="obl">41</dep>
+    <dep name="obl:tmod">2</dep>
+    <dep name="parataxis">18</dep>
+    <dep name="punct">2</dep>
+    <dep name="root">81</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">3</dep>
+  </deps>
+</treebank>
